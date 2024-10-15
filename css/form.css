@@ -1,0 +1,76 @@
+.order-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.form-prod {
+    width: 100%;
+    max-width: 250px;
+}
+
+.img-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+
+.time_remains {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form-descr {
+    margin-bottom: 15px;
+    padding: 0 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.old-price {
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+    text-decoration: line-through;
+}
+
+.new-price {
+    font-size: 20px;
+    font-weight: 600;
+    color: green;
+}
+
+.form-input {
+    box-sizing: border-box;
+    width: 320px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.submit-roulette {
+    width: 320px;
+    height: 40px;
+}
+
+h1.popup-title {
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+@media (max-width: 350px) {
+    .form-input, .submit-roulette {
+        width: 100%;
+    }
+}
+
